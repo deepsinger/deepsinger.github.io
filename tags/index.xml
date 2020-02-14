@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on DeepSinger</title>
+    <link>https://deepsinger.github.io/tags/</link>
+    <description>Recent content in Tags on DeepSinger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 10 May 2019 15:30:00 +0901</lastBuildDate>
+    
+	<atom:link href="https://deepsinger.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Singing</title>
+      <link>https://deepsinger.github.io/tags/singing/</link>
+      <pubDate>Fri, 10 May 2019 15:30:00 +0901</pubDate>
+      
+      <guid>https://deepsinger.github.io/tags/singing/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

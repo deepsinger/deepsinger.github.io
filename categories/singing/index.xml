@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Singing on DeepSinger</title>
+    <link>https://deepsinger.github.io/categories/singing/</link>
+    <description>Recent content in Singing on DeepSinger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 10 May 2019 15:30:00 +0901</lastBuildDate>
+    
+	<atom:link href="https://deepsinger.github.io/categories/singing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DeepSinger: Singing Voice Synthesis with Data Mined From the Web</title>
+      <link>https://deepsinger.github.io/deepsinger/</link>
+      <pubDate>Fri, 10 May 2019 15:30:00 +0901</pubDate>
+      
+      <guid>https://deepsinger.github.io/deepsinger/</guid>
+      <description>To be released soon&amp;hellip;.</description>
+    </item>
+    
+  </channel>
+</rss>
