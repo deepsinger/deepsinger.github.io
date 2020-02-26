@@ -21,17 +21,5 @@
   Raw Audio Vocal (after seperation) GT (Linear+GL) DeepSinger   Your browser does not support the audio element. Your browser does not support the audio element. Your browser does not support the audio element.</description>
     </item>
     
-    <item>
-      <title>Audio Sample from &#34;FastSpeech: Fast, Robust and Controllable Text to Speech&#34;</title>
-      <link>https://deepsinger.github.io/fastspeech/</link>
-      <pubDate>Fri, 10 May 2019 15:30:00 +0901</pubDate>
-      
-      <guid>https://deepsinger.github.io/fastspeech/</guid>
-      <description>FastSpeech: Fast, Robust and Controllable Text to Speech -- ArXiv: arXiv:1905.09263
-Reddit Discussions: Click me
-Authors  Yi Ren* (Zhejiang University) rayeren@zju.edu.cn Yangjun Ruan* (Zhejiang University) ruanyj3107@zju.edu.cn Xu Tan (Microsoft Research) xuta@microsoft.com Tao Qin (Microsoft Research) taoqin@microsoft.com Sheng Zhao (Microsoft STC Asia) Sheng.Zhao@microsoft.com Zhou Zhao (Zhejiang University) zhaozhou@zju.edu.cn Tie-Yan Liu (Microsoft Research) tyliu@microsoft.com  * Equal contribution.
-Abstract Neural network based end-to-end text to speech (TTS) has significantly improved the quality of synthesized speech.</description>
-    </item>
-    
   </channel>
 </rss>
