@@ -6,7 +6,7 @@
     <description>Recent content in Categories on DeepSinger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 May 2019 15:30:00 +0901</lastBuildDate>
+    <lastBuildDate>Fri, 14 Feb 2020 15:30:00 +0901</lastBuildDate>
     
 	<atom:link href="https://deepsinger.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,27 @@
     <item>
       <title>Singing</title>
       <link>https://deepsinger.github.io/categories/singing/</link>
-      <pubDate>Fri, 10 May 2019 15:30:00 +0901</pubDate>
+      <pubDate>Fri, 14 Feb 2020 15:30:00 +0901</pubDate>
       
       <guid>https://deepsinger.github.io/categories/singing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ASR</title>
+      <link>https://deepsinger.github.io/categories/asr/</link>
+      <pubDate>Fri, 10 May 2019 15:30:00 +0901</pubDate>
+      
+      <guid>https://deepsinger.github.io/categories/asr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Speech synthesis</title>
+      <link>https://deepsinger.github.io/categories/speech-synthesis/</link>
+      <pubDate>Fri, 10 May 2019 15:30:00 +0901</pubDate>
+      
+      <guid>https://deepsinger.github.io/categories/speech-synthesis/</guid>
       <description></description>
     </item>
     

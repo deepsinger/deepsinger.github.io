@@ -6,7 +6,7 @@
     <description>Recent content in Singing on DeepSinger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 May 2019 15:30:00 +0901</lastBuildDate>
+    <lastBuildDate>Fri, 14 Feb 2020 15:30:00 +0901</lastBuildDate>
     
 	<atom:link href="https://deepsinger.github.io/tags/singing/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,10 +14,11 @@
     <item>
       <title>DeepSinger: Singing Voice Synthesis with Data Mined From the Web</title>
       <link>https://deepsinger.github.io/deepsinger/</link>
-      <pubDate>Fri, 10 May 2019 15:30:00 +0901</pubDate>
+      <pubDate>Fri, 14 Feb 2020 15:30:00 +0901</pubDate>
       
       <guid>https://deepsinger.github.io/deepsinger/</guid>
-      <description>To be released soon&amp;hellip;.</description>
+      <description>Alignment Good Alignment Example  Splitting Reward: $\mathcal{O} = 0.8024 $ Your browser does not support the audio element. Bad Alignment Example  Splitting Reward: $\mathcal{O} = 0.3196 $ Your browser does not support the audio element. Audio Samples 爱从不容许人三心两意
+  Raw Audio Vocal (after seperation) GT (Linear+GL) DeepSinger   Your browser does not support the audio element. Your browser does not support the audio element. Your browser does not support the audio element.</description>
     </item>
     
   </channel>

@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DeepSinger</title>
-    <link>https://deepsinger.github.io/</link>
-    <description>Recent content on DeepSinger</description>
+    <title>ASR on DeepSinger</title>
+    <link>https://deepsinger.github.io/categories/asr/</link>
+    <description>Recent content in ASR on DeepSinger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 14 Feb 2020 15:30:00 +0901</lastBuildDate>
+    <lastBuildDate>Fri, 10 May 2019 15:30:00 +0901</lastBuildDate>
     
-	<atom:link href="https://deepsinger.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://deepsinger.github.io/categories/asr/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>DeepSinger: Singing Voice Synthesis with Data Mined From the Web</title>
-      <link>https://deepsinger.github.io/deepsinger/</link>
-      <pubDate>Fri, 14 Feb 2020 15:30:00 +0901</pubDate>
-      
-      <guid>https://deepsinger.github.io/deepsinger/</guid>
-      <description>Alignment Good Alignment Example  Splitting Reward: $\mathcal{O} = 0.8024 $ Your browser does not support the audio element. Bad Alignment Example  Splitting Reward: $\mathcal{O} = 0.3196 $ Your browser does not support the audio element. Audio Samples 爱从不容许人三心两意
-  Raw Audio Vocal (after seperation) GT (Linear+GL) DeepSinger   Your browser does not support the audio element. Your browser does not support the audio element. Your browser does not support the audio element.</description>
-    </item>
     
     <item>
       <title>Audio Sample from &#34;FastSpeech: Fast, Robust and Controllable Text to Speech&#34;</title>
