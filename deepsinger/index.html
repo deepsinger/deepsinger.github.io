@@ -30,70 +30,177 @@
             <h1 class="entry-title" itemprop="headline">DeepSinger: Singing Voice Synthesis with Data Mined From the Web</h1>
 			
 			<section itemprop="entry-text">
-				<h2 id="alignment">Alignment</h2>
-<h3 id="good-alignment-example">Good Alignment Example</h3>
+				<h2 id="chinese">Chinese</h2>
+<table><thead>
+<tr>
+<th style="text-align: center"> / </th>
+<th style="text-align: center">Sample 1</th>
+<th style="text-align: center">Sample 2</th>
+<th style="text-align: center">Sample 3</th>
+</tr></thead><tbody>
+<tr>
+<td>Data crawling</td>
+<td><audio controls="controls" ><source src="../deepsinger/zh/xx_0K2P2e1dc_5.wav" autoplay/>Your browser does not support the audio element.</audio><br>Lyric: 爱从不容许人三心两意<br>Phonemes: PAD ai c ong b u r ong x v r en s an x in l iang PAD i</td>
+<td><audio controls="controls" ><source src="../deepsinger/zh/xx_0K2P2e1dc_15.wav" autoplay/>Your browser does not support the audio element.</audio><br>Lyric: 遮住你的眼睛<br>Phonemes: zh e zh u n i d e PAD ian j ing</td>
+<td><audio controls="controls" ><source src="../deepsinger/zh/xx_XIKddfe0_37.wav" autoplay/>Your browser does not support the audio element.</audio><br>Lyric: 好久好久<br>Phonemes: h ao j iou h ao j iou</td>
+</tr>
+<tr>
+<td>Singing and accompaniment separation</td>
+<td><audio controls="controls" ><source src="../deepsinger/zh/0K2P2e1dc_5_raw.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+<td><audio controls="controls" ><source src="../deepsinger/zh/0K2P2e1dc_15_raw.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+<td><audio controls="controls" ><source src="../deepsinger/zh/XIKddfe0_37_raw.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+</tr>
+<tr>
+<td>Lyrics-to-singing alignment</td>
+<td><img src='../deepsinger/zh/0K2P2e1dc_5_attn_0.8244.png'/></td>
+<td><img src='../deepsinger/zh/0K2P2e1dc_15_attn_0.8329.png'/></td>
+<td><img src='../deepsinger/zh/XIKddfe0_37_attn_0.3764.png'/></td>
+</tr>
+<tr>
+<td>Data filtration and phoneme-level alignment</td>
+<td>Keep (Splitting Reward: $\mathcal{O} = 0.8244 $) <br> <img src='../deepsinger/zh/0K2P2e1dc_5_splits.png'/> </td>
+<td>Keep (Splitting Reward: $\mathcal{O} = 0.8359 $) <br> <img src='../deepsinger/zh/0K2P2e1dc_15_splits.png'/> </td>
+<td>Discard (Splitting Reward: $\mathcal{O} = 0.3764 $)</td>
+</tr>
+<tr>
+<td>Singing modeling</td>
+<td>
+GT (Linear+GL)   <br>  <audio controls="controls" ><source src="../deepsinger/zh/0K2P2e1dc_5_gt.wav" autoplay/>Your browser does not support the audio element.</audio> <br>  
+DeepSinger  <br>  <audio controls="controls" ><source src="../deepsinger/zh/0K2P2e1dc_5.wav" autoplay/>Your browser does not support the audio element.</audio> <br>  
+<img src='../deepsinger/zh/0K2P2e1dc_5_pitch.png'/>
+</td>
+<td>
+GT (Linear+GL)   <br>  <audio controls="controls" ><source src="../deepsinger/zh/0K2P2e1dc_15_gt.wav" autoplay/>Your browser does not support the audio element.</audio> <br> 
+ DeepSinger  <br>  <audio controls="controls" ><source src="../deepsinger/zh/0K2P2e1dc_15.wav" autoplay/>Your browser does not support the audio element.</audio> <br>
+ <img src='../deepsinger/zh/0K2P2e1dc_15_pitch.png'/>
+</td>
+<td>
+<p>/</p>
+</td>
+</tr>
+</tbody></table>
+<h2 id="english">English</h2>
+<table><thead>
+<tr>
+<th style="text-align: center"> / </th>
+<th style="text-align: center">Sample 1</th>
+<th style="text-align: center">Sample 2</th>
+<th style="text-align: center">Sample 3</th>
+</tr></thead><tbody>
+<tr>
+<td>Data crawling</td>
+<td><audio controls="controls" ><source src="../deepsinger/en/xx_8GfscTff70f_1.wav" autoplay/>Your browser does not support the audio element.</audio><br>Lyric: But sometimes I feel so<br>Phonemes: b ʌ t s ʌ m t aɪ m z aɪ f iː l s oʊ</td>
+<td><audio controls="controls" ><source src="../deepsinger/en/xx_8GfscTff70f_39.wav" autoplay/>Your browser does not support the audio element.</audio><br>Lyric: In my dreams I'm not so far away from home<br>Phonemes: ɪ n m aɪ d ɹ iː m z aɪ m n ɑː t s oʊ f ɑː ɹ ɐ w eɪ f ɹ ʌ m h oʊ m</td>
+<td><audio controls="controls" ><source src="../deepsinger/en/xx_8GfscTff70f_37.wav" autoplay/>Your browser does not support the audio element.</audio><br>Lyric: All my life all the time so far away from home<br>Phonemes: ɔː l m aɪ l aɪ f ɔː l ð ə t aɪ m s oʊ f ɑː ɹ ɐ w eɪ f ɹ ʌ m h oʊ m</td>
+</tr>
+<tr>
+<td>Singing and accompaniment separation</td>
+<td><audio controls="controls" ><source src="../deepsinger/en/8GfscTff70f_1_raw.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+<td><audio controls="controls" ><source src="../deepsinger/en/8GfscTff70f_39_raw.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+<td><audio controls="controls" ><source src="../deepsinger/en/8GfscTff70f_37_raw.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+</tr>
+<tr>
+<td>Lyrics-to-singing alignment</td>
+<td><img src='../deepsinger/en/8GfscTff70f_1_attn_0.7427.png'/></td>
+<td><img src='../deepsinger/en/8GfscTff70f_39_attn_0.7306.png'/></td>
+<td><img src='../deepsinger/en/8GfscTff70f_37_attn_0.4725.png'/></td>
+</tr>
+<tr>
+<td>Data filtration and phoneme-level alignment</td>
+<td>Keep (Splitting Reward: $\mathcal{O} = 0.7427 $) <br> <img src='../deepsinger/en/8GfscTff70f_1_splits.png'/> </td>
+<td>Keep (Splitting Reward: $\mathcal{O} = 0.7306 $) <br> <img src='../deepsinger/en/8GfscTff70f_39_splits.png'/> </td>
+<td>Discard (Splitting Reward: $\mathcal{O} = 0.4725 $)</td>
+</tr>
+<tr>
+<td>Singing modeling</td>
+<td>
+GT (Linear+GL)   <br>  <audio controls="controls" ><source src="../deepsinger/en/8GfscTff70f_1_gt.wav" autoplay/>Your browser does not support the audio element.</audio> <br>  
+DeepSinger  <br>  <audio controls="controls" ><source src="../deepsinger/en/8GfscTff70f_1.wav" autoplay/>Your browser does not support the audio element.</audio> <br>  
+<img src='../deepsinger/en/8GfscTff70f_1_pitch.png'/>
+</td>
+<td>
+GT (Linear+GL)   <br>  <audio controls="controls" ><source src="../deepsinger/en/8GfscTff70f_39_gt.wav" autoplay/>Your browser does not support the audio element.</audio> <br> 
+ DeepSinger  <br>  <audio controls="controls" ><source src="../deepsinger/en/8GfscTff70f_39.wav" autoplay/>Your browser does not support the audio element.</audio> <br>
+ <img src='../deepsinger/en/8GfscTff70f_39_pitch.png'/>
+</td>
+<td>
+<p>/</p>
+</td>
+</tr>
+</tbody></table>
+<h2 id="cantonese">Cantonese</h2>
+<table><thead>
+<tr>
+<th style="text-align: center"> / </th>
+<th style="text-align: center">Sample 1</th>
+<th style="text-align: center">Sample 2</th>
+<th style="text-align: center">Sample 3</th>
+</tr></thead><tbody>
+<tr>
+<td>Data crawling</td>
+<td><audio controls="controls" ><source src="../deepsinger/hk/xx_bClau824b25f_3.wav" autoplay/>Your browser does not support the audio element.</audio><br>Lyric: 我已经不懂心痛<br>Phonemes: ŋ o5 j i5 ɡ inɡ1 b a1 t d unɡ2 s a1 m t unɡɜ</td>
+<td><audio controls="controls" ><source src="../deepsinger/hk/xx_bClau824b25f_9.wav" autoplay/>Your browser does not support the audio element.</audio><br>Lyric: 或你会了解在孤单中的心痛<br>Phonemes: w aa6 k n ei5 w ui6 l iu5 ɡ aai2 z oi6 ɡ u1 d aa1 n z unɡ1 d i1 k s a1 m t unɡɜ</td>
+<td><audio controls="controls" ><source src="../deepsinger/hk/xx_bBfZ2b39bf_32.wav" autoplay/>Your browser does not support the audio element.</audio><br>Lyric: 愿奉上 每个热吻<br>Phonemes: j yu6 n f unɡ6 s oenɡ5 m ui5 ɡ oɜ j i6 t m a5 n</td>
+</tr>
+<tr>
+<td>Singing and accompaniment separation</td>
+<td><audio controls="controls" ><source src="../deepsinger/hk/bClau824b25f_3_raw.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+<td><audio controls="controls" ><source src="../deepsinger/hk/bClau824b25f_9_raw.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+<td><audio controls="controls" ><source src="../deepsinger/hk/bBfZ2b39bf_32_raw.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+</tr>
+<tr>
+<td>Lyrics-to-singing alignment</td>
+<td><img src='../deepsinger/hk/bClau824b25f_3_attn_0.8105.png'/></td>
+<td><img src='../deepsinger/hk/bClau824b25f_9_attn_0.7372.png'/></td>
+<td><img src='../deepsinger/hk/bBfZ2b39bf_32_attn_0.3601.png'/></td>
+</tr>
+<tr>
+<td>Data filtration and phoneme-level alignment</td>
+<td>Keep (Splitting Reward: $\mathcal{O} = 0.8105 $) <br> <img src='../deepsinger/hk/bClau824b25f_3_splits.png'/> </td>
+<td>Keep (Splitting Reward: $\mathcal{O} = 0.7372 $) <br> <img src='../deepsinger/hk/bClau824b25f_9_splits.png'/> </td>
+<td>Discard (Splitting Reward: $\mathcal{O} = 0.3601 $)</td>
+</tr>
+<tr>
+<td>Singing modeling</td>
+<td>
+GT (Linear+GL)   <br>  <audio controls="controls" ><source src="../deepsinger/hk/bClau824b25f_3_gt.wav" autoplay/>Your browser does not support the audio element.</audio> <br>  
+DeepSinger  <br>  <audio controls="controls" ><source src="../deepsinger/hk/bClau824b25f_3.wav" autoplay/>Your browser does not support the audio element.</audio> <br>  
+<img src='../deepsinger/hk/bClau824b25f_3_pitch.png'/>
+</td>
+<td>
+GT (Linear+GL)   <br>  <audio controls="controls" ><source src="../deepsinger/hk/bClau824b25f_9_gt.wav" autoplay/>Your browser does not support the audio element.</audio> <br> 
+ DeepSinger  <br>  <audio controls="controls" ><source src="../deepsinger/hk/bClau824b25f_9.wav" autoplay/>Your browser does not support the audio element.</audio> <br>
+ <img src='../deepsinger/hk/bClau824b25f_9_pitch.png'/>
+</td>
+<td>
+<p>/</p>
+</td>
+</tr>
+</tbody></table>
+<!-- ### Good Alignment Example
+
 <p>
 Splitting Reward: $\mathcal{O} = 0.8024 $  
 </p>
+
 <img src='../deepsinger/good_align.png'/>
 <audio controls="controls" ><source src="../deepsinger/good_align.wav" autoplay/>Your browser does not support the audio element.</audio>
-<h3 id="bad-alignment-example">Bad Alignment Example</h3>
+
+### Bad Alignment Example
+
 <p>
 Splitting Reward: $\mathcal{O} = 0.3196 $  
 </p>
+
 <img src='../deepsinger/bad_align.png'/>
 <audio controls="controls" ><source src="../deepsinger/bad_align.wav" autoplay/>Your browser does not support the audio element.</audio>
-<h2 id="audio-samples">Audio Samples</h2>
+
+
+## Audio Samples
+
 <!-- ### Chinese  -->
-<p><em>爱从不容许人三心两意</em></p>
-<table><thead>
-<tr>
-<th style="text-align: center">Raw Audio</th>
-<th style="text-align: center">Vocal (after seperation)</th>
-<th style="text-align: center">GT (Linear+GL)</th>
-<th style="text-align: center">DeepSinger</th>
-</tr></thead><tbody>
-<tr>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/raw/0.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/gt/0.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/gt_gl/0.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/ds/0.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-</tr>
-</tbody></table>
-<p><em>遇见浑然天成的交集</em></p>
-<table><thead>
-<tr>
-<th style="text-align: center">Raw Audio</th>
-<th style="text-align: center">Vocal (after seperation)</th>
-<th style="text-align: center">GT (Linear+GL)</th>
-<th style="text-align: center">DeepSinger</th>
-</tr></thead><tbody>
-<tr>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/raw/1.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/gt/1.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/gt_gl/1.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/ds/1.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-</tr>
-</tbody></table>
-<p><em>遮住你的眼睛</em></p>
-<table><thead>
-<tr>
-<th style="text-align: center">Raw Audio</th>
-<th style="text-align: center">Vocal (after seperation)</th>
-<th style="text-align: center">GT (Linear+GL)</th>
-<th style="text-align: center">DeepSinger</th>
-</tr></thead><tbody>
-<tr>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/raw/2.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/gt/2.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/gt_gl/2.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/ds/2.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-</tr>
-</tbody></table>
 <!-- 
-### Cantonese
-
-爱从不容许人三心两意
+*爱从不容许人三心两意*
 
 <table><thead>
 <tr>
@@ -103,15 +210,15 @@ Splitting Reward: $\mathcal{O} = 0.3196 $
 <th style="text-align: center">DeepSinger</th>
 </tr></thead><tbody>
 <tr>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/liuruoying_1_gt.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/liuruoying_1_gt.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/liuruoying_1_gt.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/liuruoying_1_gt.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+<td><audio controls="controls" ><source src="../deepsinger/audio/raw/0.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+<td><audio controls="controls" ><source src="../deepsinger/audio/gt/0.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+<td><audio controls="controls" ><source src="../deepsinger/audio/gt_gl/0.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+<td><audio controls="controls" ><source src="../deepsinger/audio/ds/0.wav" autoplay/>Your browser does not support the audio element.</audio></td>
 </tr>
 </tbody></table>
 
 
-爱从不容许人三心两意
+*遇见浑然天成的交集*
 
 <table><thead>
 <tr>
@@ -121,15 +228,16 @@ Splitting Reward: $\mathcal{O} = 0.3196 $
 <th style="text-align: center">DeepSinger</th>
 </tr></thead><tbody>
 <tr>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/liuruoying_1_gt.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/liuruoying_1_gt.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/liuruoying_1_gt.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/liuruoying_1_gt.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+<td><audio controls="controls" ><source src="../deepsinger/audio/raw/1.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+<td><audio controls="controls" ><source src="../deepsinger/audio/gt/1.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+<td><audio controls="controls" ><source src="../deepsinger/audio/gt_gl/1.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+<td><audio controls="controls" ><source src="../deepsinger/audio/ds/1.wav" autoplay/>Your browser does not support the audio element.</audio></td>
 </tr>
 </tbody></table>
 
 
-爱从不容许人三心两意
+
+*遮住你的眼睛*
 
 <table><thead>
 <tr>
@@ -139,69 +247,14 @@ Splitting Reward: $\mathcal{O} = 0.3196 $
 <th style="text-align: center">DeepSinger</th>
 </tr></thead><tbody>
 <tr>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/liuruoying_1_gt.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/liuruoying_1_gt.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/liuruoying_1_gt.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/liuruoying_1_gt.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+<td><audio controls="controls" ><source src="../deepsinger/audio/raw/2.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+<td><audio controls="controls" ><source src="../deepsinger/audio/gt/2.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+<td><audio controls="controls" ><source src="../deepsinger/audio/gt_gl/2.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+<td><audio controls="controls" ><source src="../deepsinger/audio/ds/2.wav" autoplay/>Your browser does not support the audio element.</audio></td>
 </tr>
 </tbody></table>
 
-
-### English 
-
-
-爱从不容许人三心两意
-
-<table><thead>
-<tr>
-<th style="text-align: center">Raw Audio</th>
-<th style="text-align: center">Vocal (after seperation)</th>
-<th style="text-align: center">GT (Linear+GL)</th>
-<th style="text-align: center">DeepSinger</th>
-</tr></thead><tbody>
-<tr>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/liuruoying_1_gt.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/liuruoying_1_gt.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/liuruoying_1_gt.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/liuruoying_1_gt.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-</tr>
-</tbody></table>
-
-
-爱从不容许人三心两意
-
-<table><thead>
-<tr>
-<th style="text-align: center">Raw Audio</th>
-<th style="text-align: center">Vocal (after seperation)</th>
-<th style="text-align: center">GT (Linear+GL)</th>
-<th style="text-align: center">DeepSinger</th>
-</tr></thead><tbody>
-<tr>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/liuruoying_1_gt.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/liuruoying_1_gt.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/liuruoying_1_gt.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/liuruoying_1_gt.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-</tr>
-</tbody></table>
-
-
-爱从不容许人三心两意
-
-<table><thead>
-<tr>
-<th style="text-align: center">Raw Audio</th>
-<th style="text-align: center">Vocal (after seperation)</th>
-<th style="text-align: center">GT (Linear+GL)</th>
-<th style="text-align: center">DeepSinger</th>
-</tr></thead><tbody>
-<tr>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/liuruoying_1_gt.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/liuruoying_1_gt.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/liuruoying_1_gt.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-<td style="text-align: center"><audio controls="controls" ><source src="../deepsinger/audio/liuruoying_1_gt.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-</tr>
-</tbody></table> -->
+<br> --> 
 
 			</section>
 		</article>

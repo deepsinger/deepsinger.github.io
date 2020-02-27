@@ -17,8 +17,11 @@
       <pubDate>Fri, 14 Feb 2020 15:30:00 +0901</pubDate>
       
       <guid>https://deepsinger.github.io/deepsinger/</guid>
-      <description>Alignment Good Alignment Example  Splitting Reward: $\mathcal{O} = 0.8024 $ Your browser does not support the audio element. Bad Alignment Example  Splitting Reward: $\mathcal{O} = 0.3196 $ Your browser does not support the audio element. Audio Samples 爱从不容许人三心两意
-  Raw Audio Vocal (after seperation) GT (Linear+GL) DeepSinger   Your browser does not support the audio element. Your browser does not support the audio element. Your browser does not support the audio element.</description>
+      <description>Chinese   /  Sample 1 Sample 2 Sample 3   Data crawling Your browser does not support the audio element.
+Lyric: 爱从不容许人三心两意
+Phonemes: PAD ai c ong b u r ong x v r en s an x in l iang PAD i Your browser does not support the audio element.
+Lyric: 遮住你的眼睛
+Phonemes: zh e zh u n i d e PAD ian j ing Your browser does not support the audio element.</description>
     </item>
     
   </channel>
